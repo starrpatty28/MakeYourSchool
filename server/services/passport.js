@@ -31,8 +31,7 @@ passport.use(new GoogleStrategy(
           done(null, existingUser);
         } else {
           // we do not have a record with this ID, make a new record
-          new User({ googleId: profile.id })
-          .save()
+          new User({ googleId: profile.id }).save()
           .then(user => done(null, user));
 
         }
