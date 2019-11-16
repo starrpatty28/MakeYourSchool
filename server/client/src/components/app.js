@@ -4,4 +4,6 @@ const App = () => {
       Yassss Girl!!
     </div>
   );
-};
+}; 
+
+export default App;
