@@ -8,6 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>Yassssss Girl, you did it!</h2>
+        <a href="http://localhost:5000/auth/google">Sign In With Google</a>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
