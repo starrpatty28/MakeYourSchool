@@ -10,4 +10,3 @@ ReactDOM.render(
  <Provider store={store}><App /></Provider>, 
   document.querySelector('#root')); 
 
-//pass in store as a prop
