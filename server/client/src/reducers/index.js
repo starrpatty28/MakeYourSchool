@@ -5,4 +5,3 @@ export default combineReducers({
   auth: authReducer
 }); 
 
-//create a combineReducers object and pass it keys
