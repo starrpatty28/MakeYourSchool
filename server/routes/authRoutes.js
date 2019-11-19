@@ -1,3 +1,4 @@
+// my auth routes
 const passport = require('passport');
 
 // When I pass this function (route handler) it should take me to the auth flow
