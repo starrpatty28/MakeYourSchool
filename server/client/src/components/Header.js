@@ -3,8 +3,7 @@ import { connect } from 'react-redux';
 
 class Header extends Component {
   render() {
-    console.log(this.props);
-    return (
+     return (
       <nav>
         <div className="nav-wrapper">
           <a className="left brand-logo">
@@ -21,8 +20,8 @@ class Header extends Component {
   }
 }
 
-function mapStateToProps({ auth }) {
-  return auth;
+function mapStateToProp({ auth }) {
+  return { auth };
 }
 
 export default connect(mapStateToProp)(Header);
