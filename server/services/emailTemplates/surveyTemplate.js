@@ -1,6 +1,4 @@
-// This functin will display any HTML for my survey emails
-
-module.exports = () => {
+module.exports = (survey) => {
   return '<div>' + survey.body + '</div>';
 };
  
