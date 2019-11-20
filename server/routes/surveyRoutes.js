@@ -22,7 +22,7 @@ module.exports = app => {
     });
 
     // Sending my email after the survey
-    const mailer = new Mailer(survey, template);
+    const mailer = new Mailer(survey, surveyTemplate(survey));
   });
 };  
 
