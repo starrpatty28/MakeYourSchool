@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 
+
 class SurveyForm extends Component {
   render () {
     return (
       <div>
-        Hello World, Survey Form!!
+        SurveyForm
       </div>
     )
   }
