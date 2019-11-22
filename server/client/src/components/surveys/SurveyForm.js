@@ -39,7 +39,19 @@ class SurveyForm extends Component {
   }
 }
 
-  export default reduxForm({
-    form: 'SurveyForm'
-  }) (SurveyForm);
+function validate(values) {
+  const errors = {};
+   _.each(FIELDS, ({ name }) => {
+     if(!values[name]) {
+       errors[name] = 'You must provide a value'
+     }
+   });
+
+  return errors;
+}
+
+export default reduxForm({
+  validate,
+  form: 'SurveyForm'
+  })(SurveyForm);
 
