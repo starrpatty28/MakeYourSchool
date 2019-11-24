@@ -27,8 +27,7 @@ class Header extends Component {
         <div className="nav-wrapper blue lighten-2">
           <Link 
             to={this.props.auth ? '/surveys' : '/'} 
-            className="left brand-logo"
-            
+            className="left brand-logo" 
           >
             MakeYourSchool
           <i className="material-icons">school</i>
