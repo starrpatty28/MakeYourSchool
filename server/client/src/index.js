@@ -9,8 +9,8 @@ import App from './components/App';
 import reducers from './reducers';
 
 // test my backend route code
-// import axios from 'axios';
-// window.axios = axios;
+import axios from 'axios';
+window.axios = axios;
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
