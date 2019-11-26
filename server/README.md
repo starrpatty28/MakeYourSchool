@@ -55,3 +55,5 @@ SEND_GRID_KEY: <sendgrid_api_key>
 * [Stripe API](https://stripe.com/docs/api)
 * [Twilio Sendgrid](https://www.twilio.com/sendgrid)
 
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
