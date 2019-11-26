@@ -28,15 +28,15 @@ SEND_GRID_KEY: <sendgrid_api_key>
 ```
 3. Install Dependencies <br>
 
- Server:  ``` npm install ``` <br>
+   Server:  ``` npm install ``` <br>
  
- Client:  ``` npm run client-install```
+   Client:  ``` npm run client-install```
  
- 4. Run the Application
+4. Run the Application
  
- Server: ``` nodemon index.js ``` <br>
+   Server: ``` nodemon index.js ``` <br>
  
- Client: ``` npm start ```
+   Client: ``` npm start ```
 
 # BUILT WITH
 
