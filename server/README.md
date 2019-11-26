@@ -1,6 +1,7 @@
 # MAKE YOUR SCHOOL
 
-Made for the [Techtonica Final Project](https://github.com/Techtonica/curriculum/blob/master/projects/final-project/final-project.md) assignment 
+### Description
+
 
 
 
@@ -19,3 +20,5 @@ Made for the [Techtonica Final Project](https://github.com/Techtonica/curriculum
 
 * [Google API](https://developers.google.com/)
 * [Stripe API](https://stripe.com/docs/api)
+* [Twilio Sendgrid](https://www.twilio.com/sendgrid)
+
