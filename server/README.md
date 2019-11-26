@@ -1,8 +1,11 @@
 # MAKE YOUR SCHOOL
 
-### Description
+#### Description
+
+This is a webapp the school administration can use to get feedback from students on making a safer and better learning environment.
 
 
+# Installation
 
 
 # BUILT WITH
