@@ -30,6 +30,7 @@ if (process.env.NODE_ENV === 'production') {
  // Express will serve up production asset like main.js
     app.use(express.static('client/build'));
  // Express will serve up index.html if it does not reconize the routes
+ const path = require('path');
  app.get('*', (req, res) => {
    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
  })
