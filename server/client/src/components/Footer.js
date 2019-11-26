@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 function Footer() {
   return (
     <div>
-        <footer class="page-footer blue lighten-2">
+        <footer class="page-footer light-blue darken-4">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
@@ -19,11 +19,6 @@ function Footer() {
                   <li><a class="grey-text text-lighten-3" href="https://www.sfusd.edu/school/lowell-high-school">Lowell High School</a></li>
                 </ul>
               </div>
-            </div>
-          </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2019 Copyright Text
             </div>
           </div>
         </footer>

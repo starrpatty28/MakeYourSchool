@@ -1,4 +1,5 @@
 import React from 'react';
+import Highschool from '../images/Highschool.jpg'; 
 
 const Landing = () => {
   return (
@@ -6,7 +7,8 @@ const Landing = () => {
       <h1>
         Make Your School
       </h1>
-      Collect feedback from your students to make a better place to learn!
+      <h5>Collect feedback from your students to make a better place to learn</h5>
+      <img src={Highschool} /> 
     </div>
   )
 }
