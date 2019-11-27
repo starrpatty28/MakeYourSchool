@@ -4,15 +4,37 @@
 
 This is a Webapp the Highschool's  Administration can use to get feedback from students on making a safer and better learning environment.
 
+## BUILT WITH
 
-# Installation
+* [Node.js](https://nodejs.org/en/)
+* [Express.js](https://expressjs.com/)
+* [MongoDB](https://www.mongodb.com)
+* [Mongoose](https://mongoosejs.com/) 
+* [Axios](https://www.npmjs.com/package/axios)
+* [React](https://reactjs.org/)
+* [React-Redux](https://react-redux.js.org/)   
+* [Materialize](https://materializecss.com/) 
+
+
+## API's USED
+
+* [Google API](https://developers.google.com/)
+* [Stripe API](https://stripe.com/docs/api)
+* [Twilio Sendgrid](https://www.twilio.com/sendgrid) 
+
+
+## API Keys
+
+You will need your own keys of the following: Google Client ID, Google Client Secret Key, MongoDB: MongoDB USER, MongoDB PASSWORD, Stripe Publishable Key, Stripe Secret Key, Sendgrid API Key
+
+## Installation
 
 1. Fork and Clone the Repo 
 ```
 git clone https://github.com/starrpatty28/MakeYourSchool.git
 ```
 
-2. Create a file .env file in the root folder 
+2. Create a file dev.js file in the root folder and add your keys (Make sure to add your dev.js file to your GITIGNORE!!)
 ```
 GOOGLE_CLIENT_ID: <your_google_client_key>
 GOOGLE_CLIENT_SECRET: <your_google_client_secret_key>
@@ -38,22 +60,6 @@ SEND_GRID_KEY: <sendgrid_api_key>
  
    Client: ``` npm start ```
 
-# BUILT WITH
-
-* [Node.js](https://nodejs.org/en/)
-* [Express.js](https://expressjs.com/)
-* [MongoDB](https://www.mongodb.com)
-* [Mongoose](https://mongoosejs.com/) 
-* [Axios](https://www.npmjs.com/package/axios)
-* [React](https://reactjs.org/)
-* [React-Redux](https://react-redux.js.org/)   
-* [Materialize](https://materializecss.com/) 
-
-# API's USED
-
-* [Google API](https://developers.google.com/)
-* [Stripe API](https://stripe.com/docs/api)
-* [Twilio Sendgrid](https://www.twilio.com/sendgrid)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
