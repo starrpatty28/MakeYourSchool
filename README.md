@@ -12,7 +12,7 @@ This is a Webapp the Highschool's  Administration can use to get feedback from s
 git clone https://github.com/starrpatty28/MakeYourSchool.git
 ```
 
-2. Create a file .env file in the root folder 
+2. Create a file dev.js file in the root folder and add your keys
 ```
 GOOGLE_CLIENT_ID: <your_google_client_key>
 GOOGLE_CLIENT_SECRET: <your_google_client_secret_key>
