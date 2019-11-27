@@ -60,6 +60,5 @@ SEND_GRID_KEY: <sendgrid_api_key>
  
    Client: ``` npm start ```
 
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
