@@ -4,7 +4,7 @@
 
 This is a Webapp the Highschool's  Administration can use to get feedback from students on making a safer and better learning environment.
 
-# BUILT WITH
+## BUILT WITH
 
 * [Node.js](https://nodejs.org/en/)
 * [Express.js](https://expressjs.com/)
@@ -15,13 +15,19 @@ This is a Webapp the Highschool's  Administration can use to get feedback from s
 * [React-Redux](https://react-redux.js.org/)   
 * [Materialize](https://materializecss.com/) 
 
-# API's USED
+
+## API's USED
 
 * [Google API](https://developers.google.com/)
 * [Stripe API](https://stripe.com/docs/api)
-* [Twilio Sendgrid](https://www.twilio.com/sendgrid)
+* [Twilio Sendgrid](https://www.twilio.com/sendgrid) 
 
-# Installation
+
+## API Keys
+
+You will need your own keys of the following: Google Client ID, Google Client Secret Key, MongoDB: MongoDB USER, MongoDB PASSWORD, Stripe Publishable Key, Stripe Secret Key, Sendgrid API Key
+
+## Installation
 
 1. Fork and Clone the Repo 
 ```
