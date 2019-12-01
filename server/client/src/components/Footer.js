@@ -3,11 +3,11 @@ import React, { Component } from 'react';
 function Footer() {
   return (
     <div>
-        <footer class="page-footer light-blue darken-4">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Make Your School <i className="material-icons">school</i></h5>
+        <footer className="page-footer light-blue darken-4">
+          <div className="container">
+            <div className="row">
+              <div className="col l6 s12">
+                <h5 className="white-text">Make Your School <i className="material-icons">school</i></h5>
                 <p class="grey-text text-lighten-4">222 Shoreline Drive Pittsbugh CA 94578</p>
               </div>
               <div class="col l4 offset-l2 s12">
