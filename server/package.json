@@ -13,7 +13,8 @@
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run webhook\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
-    "webhook": "lt -p 5000 -s sndfnasjf"
+    "webhook": "lt -p 5000 -subdomain sndfnasjf"
+   
   },
   "author": "",
   "license": "ISC",
