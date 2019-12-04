@@ -1,0 +1,9 @@
+{
+  "name": "makeyourschool",
+  "description": "Students Feedback",
+  "version": "0.0.1",
+  "engines": {
+    "node": "13.0.1"
+  }
+} 
+
